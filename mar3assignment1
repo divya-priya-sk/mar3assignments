@@ -1,0 +1,4 @@
+#program to print 10 to 1 using list comprehension
+l= [ x for x in range(1,11) ]
+l.reverse()
+print('printing 10 to 1:',l)
